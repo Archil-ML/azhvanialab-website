@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acho – AI Researcher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Acho – AI Researcher</h1>
+        <nav>
+            <a href="#bio">Bio</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="bio">
+        <h2>About Me</h2>
+        <p>Hello! I am Acho, an AI researcher focused on machine learning, computational neuroscience, and generative models. I like building practical AI projects and sharing knowledge online.</p>
+        <p>
+            <a href="https://scholar.google.com/" target="_blank">Google Scholar</a> |
+            <a href="https://www.researchgate.net/" target="_blank">ResearchGate</a> |
+            <a href="https://github.com/" target="_blank">GitHub</a>
+        </p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>Project 1 – ML model for X</li>
+            <li>Project 2 – Generative model for Y</li>
+            <li>Project 3 – Computational neuroscience analysis</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <p id="contact-response"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Acho</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
