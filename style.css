@@ -53,10 +53,18 @@ footer {
     color: #fff;
 }
 
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
 .profile-pic {
-    width: 40px;  /* smaller size */
+    width: 40px;
     height: 40px;
     border-radius: 50%;
     object-fit: cover;
     border: 2px solid white;
 }
+
+
