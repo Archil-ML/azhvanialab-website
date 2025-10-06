@@ -60,11 +60,12 @@ footer {
 }
 
 .profile-pic {
-    width: 40px;
-    height: 40px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     object-fit: cover;
     border: 2px solid white;
 }
+
 
 
