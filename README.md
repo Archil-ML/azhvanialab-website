@@ -1,2 +1,2 @@
 # azhvanialab-website
-My personal website or my research work
+My personal website for my research work
