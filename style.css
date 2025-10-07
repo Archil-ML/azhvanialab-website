@@ -61,6 +61,17 @@ footer {
     display: flex;
     align-items: center;
     gap: 15px;
+    width: 100%;
+    position: relative;
+}
+
+.header-left h1 {
+    position: absolute;        /* lets you position independently of the image */
+    left: 50%;                 /* move center to midpoint */
+    transform: translateX(-50%); /* pull it back by half its width for true centering */
+    text-align: center;
+    margin: 0;
+    white-space: nowrap;       /* keeps text in one line */
 }
 
 .profile-pic {
@@ -70,6 +81,7 @@ footer {
     object-fit: cover;
     border: 2px solid white;
 }
+
 
 
 
