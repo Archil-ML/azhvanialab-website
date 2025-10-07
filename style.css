@@ -83,6 +83,33 @@ footer {
     opacity: 0.9;
 }
 
+.project {
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.project h3 {
+    margin-bottom: 8px;
+}
+
+.project a {
+    display: inline-block;
+    color: #0a192f;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+.project img {
+    width: 100%;
+    max-width: 600px;   /* adjust size */
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
 
 
 
