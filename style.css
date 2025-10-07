@@ -76,12 +76,13 @@ footer {
     position: absolute;
     top: 20px;
     right: 25px;
-    width: 70px;
+    width: 100px;
     height: auto;
     border-radius: 4px;
     border: 1px solid #888;
     opacity: 0.9;
 }
+
 
 
 
