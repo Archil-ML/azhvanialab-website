@@ -91,11 +91,12 @@ footer {
     border-radius: 8px;
     border: 1px solid #ccc;
 }
-/* Aurora Borealis background override */
 body {
     position: relative;
-    background: #0a192f; /* keep your dark base color */
+    background: #d6f0ff; /* very light blue background */
     color: #fff;
 }
+
+
 
 
