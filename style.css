@@ -10,7 +10,7 @@ header {
     z-index: 1;
 }
 header nav a {
-    color: #fff;
+    color: #000;
     margin: 0 10px;
     text-decoration: none;
 }
@@ -96,6 +96,7 @@ body {
     background: #d6f0ff; /* very light blue background */
     color: #000;
 }
+
 
 
 
