@@ -94,11 +94,17 @@ footer {
 /* Aurora Borealis background override */
 body {
     position: relative;
-    background: 
-        linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),  /* transparent overlay */
-        url('borealis.jpg') no-repeat center center fixed;
-    background-size: cover;
+    background: #0a192f; /* keep your dark base color */
     color: #fff;
 }
 
+body::before {
+    content: "";
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: url('borealis.jpg') no-repeat center center fixed;
+    background-size: cover;
+    opacity: 0;  /* 100% transparent but still "exists" */
+    z-index: -1;
+}
 
