@@ -55,7 +55,7 @@ footer {
     width: 300px !important;
     height: 300px !important;
     border-radius: 50%;
-    object-fit: cover;
+    object-fit: contain; /* Changed from cover to prevent zoom/cropping */
     border: 2px solid white;
 }
 .top-right-image {
