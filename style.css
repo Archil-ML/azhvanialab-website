@@ -55,8 +55,9 @@ footer {
     width: 300px !important;
     height: 300px !important;
     border-radius: 50%;
-    object-fit: contain; /* Changed from cover to prevent zoom/cropping */
+    object-fit: contain;
     border: 2px solid white;
+    background-color: #a6c4dc; /* Matches the light blue background of the photo */
 }
 .top-right-image {
     position: absolute;
